@@ -24,7 +24,7 @@ x-custom:
 
 services:
   app:
-    image: "${REGISTRY:-ntsuchiya1105}/laravel-container:${IMAGE_TAG:-latest}"
+    image: "${REGISTRY:-ntsuchiya1105}/laravel:${IMAGE_TAG:-latest}"
     ports:
       - *app_port
     environment:
